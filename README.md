@@ -1,4 +1,4 @@
-# Key-and-Door-System
+# CountDown Timer Reset Scene
 
 # Prerequisites
 Before approaching this tutorial, you will need a current version of Unity and a code editor (such as Microsoft Visual Studio Community) installed and ready to use.
