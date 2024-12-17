@@ -5,6 +5,10 @@ Before approaching this tutorial, you will need a current version of Unity and a
 
 This tutorial was created with Unity 2022.3 LTS and Microsoft Visual Studio Community 2022 versions. It should work with earlier or later versions. But you should check the release notes for other versions as the Editor controls or Scripting API functions may have changed. This is as the changes in the updates can cause errors to occur that may have been fixed or changed within different versions of the Unity and Visual Studio softwares.
 
+Code was taken from:
+[Timer](https://www.youtube.com/watch?v=POq1i8FyRyQ)
+[restart scene](https://discussions.unity.com/t/how-to-restart-scene-properly/118396/3)
+
 If you need help installing Unity you can find many online tutorials such as: https://learn.unity.com/tutorial/install-the-unity-hub-and-editor
 
 You will also need to know how to create an empty project, add primitive objects to your scene, create blank scripts, and run projects from within the editor. If you need help with this, there is a short video demonstrating how to do all of these things here:
@@ -14,11 +18,11 @@ https://www.youtube.com/watch?v=eQpWPfP1T6g
 In this tutorial we will be importing TextMeshProEssentials Unity Package which will be shown in the tutorial.
 
 # Primary Objectives
-This tutorial aims to create a simple interactable key and door system, which means that if a key is picked up by the player the door will open with that key. 
+This tutorial aims to create a simple timer that when it reaches 0;00 the scene will reset.
 
 # Preview
 
-
+https://github.com/user-attachments/assets/d14152d9-4063-4afa-932a-fd940ce7eb51
 
 # Getting Started
 To start this tutorial, we will need to create a new Unity Project.
@@ -53,9 +57,12 @@ the problem is that when the countdown reachers past 0:00 this will occur seen i
 The changes in the script just means that if the time is less than 0 then that the time should not go past 0:00.
 
 
-
 https://github.com/user-attachments/assets/e07a5af7-efe7-4fbc-ace6-8ea30d0a9c2f
 
 This just shows that the Time will just stay at 0 instead of counting down further.
+
+![image](https://github.com/user-attachments/assets/aeb08fc8-b67d-4d60-ba51-fda3cd05a9cf)
+
+These are the changes that I added onto the if statement which just allows the scene to reset which are on lines 5, and 22. This just means that it will use the Unity's Scene management to reset the scene.
 
 
