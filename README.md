@@ -6,8 +6,7 @@ Before approaching this tutorial, you will need a current version of Unity and a
 This tutorial was created with Unity 2022.3 LTS and Microsoft Visual Studio Community 2022 versions. It should work with earlier or later versions. But you should check the release notes for other versions as the Editor controls or Scripting API functions may have changed. This is as the changes in the updates can cause errors to occur that may have been fixed or changed within different versions of the Unity and Visual Studio softwares.
 
 Code was taken from:
-[Timer](https://www.youtube.com/watch?v=POq1i8FyRyQ)
-[restart scene](https://discussions.unity.com/t/how-to-restart-scene-properly/118396/3)
+[Timer](https://www.youtube.com/watch?v=POq1i8FyRyQ), [restart scene](https://discussions.unity.com/t/how-to-restart-scene-properly/118396/3)
 
 If you need help installing Unity you can find many online tutorials such as: https://learn.unity.com/tutorial/install-the-unity-hub-and-editor
 
