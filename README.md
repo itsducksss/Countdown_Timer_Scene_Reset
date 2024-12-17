@@ -36,9 +36,20 @@ We the go into the Canvas in the Hierarchy and add a script which we will name a
 Once opened we will the add the line is using TMPro; line which will allow us to use the parts within the TMPro package when doing the timer for the scene.
 
 This script just means that the on the TextmeshPro (TMPro) object we renamed as timer, it will use the TMPro to display the text which we have stated in the script to be the time that has elapsed when we play the scene.
+![image](https://github.com/user-attachments/assets/90d67810-2dd9-4418-9a41-d27248cfbd4c)
 
-Once we get this working to show the basic functionality of a timer, we then go back into teh script and change the elapsedTime into remainingTime throughout the script. We then also change the += into a -+ which just means that instead of going up the timer will count down which is what we want.
+Once we get this working to show the basic functionality of a timer, we then go back into teh script and change the elapsedTime into remainingTime throughout the script. We then also change the += into a -+ which just means that instead of going up the timer will count down which is what we want as seen above.
 
+https://github.com/user-attachments/assets/5a74081b-36fa-4ba9-b640-60ccd242169f
 
+When we play the scene this should occur (video above).
+
+https://github.com/user-attachments/assets/15471615-12e9-4b34-8232-0bd2ba1f00bd
+
+the problem is that when the countdown reachers past 0:00 this will occur seen in the video above. To solve this we will adjust the script.
+
+![image](https://github.com/user-attachments/assets/f098f676-be40-42a1-bf08-b214d9c19adb)
+
+The changes in the script just means that if the time is less than 0 then that the timw should not go pst 0:00
 
 
