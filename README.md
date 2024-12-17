@@ -50,6 +50,12 @@ the problem is that when the countdown reachers past 0:00 this will occur seen i
 
 ![image](https://github.com/user-attachments/assets/f098f676-be40-42a1-bf08-b214d9c19adb)
 
-The changes in the script just means that if the time is less than 0 then that the timw should not go pst 0:00
+The changes in the script just means that if the time is less than 0 then that the time should not go past 0:00.
+
+
+
+https://github.com/user-attachments/assets/e07a5af7-efe7-4fbc-ace6-8ea30d0a9c2f
+
+This just shows that the Time will just stay at 0 instead of counting down further.
 
 
