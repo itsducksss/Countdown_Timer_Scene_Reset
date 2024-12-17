@@ -21,22 +21,24 @@ This tutorial aims to create a simple interactable key and door system, which me
 
 
 # Getting Started
-To start this tutorial, we will need to create a new Unity Project. To the Unity scene we will add a Plane to represent the floor, and 2 3 cubes scaled to size to represent the wall and the door, as well as a movable capsule to represent the player.
-![image](https://github.com/user-attachments/assets/fab3d17b-80bd-486e-9e0d-1f3829155878)![image](https://github.com/user-attachments/assets/cc63c2d9-5de6-46e2-9fa6-e17418c33c84)
+To start this tutorial, we will need to create a new Unity Project.
 
-in the scene we have a plane in the scene to represent the floor, with a mesh collider so that it is able to act as a floor, and so that the player can move on the plane.
-![image](https://github.com/user-attachments/assets/13ad3d45-4af0-4831-86f7-86e558ce25bc)
+![image](https://github.com/user-attachments/assets/2b494d4b-da21-495e-8f42-6b9be4f2bc62)
 
-We then add in cube and scale that to look like a wall using the "r" key on the keyboard and adjust as wanted. This can then add a box collider onto it then duplicate twice to create the door and the walls for the scene.
-![image](https://github.com/user-attachments/assets/a6c39aab-d6ef-4e9d-a61c-3e182283d8f8)
+We will first add a TextMeshPro item by right clicking onto the hieracrhy. It whould be under the UI selection as seen in the image above, Once we add this into our project, Unity will then ask if we want to add addition packages for the TextmeshPro to function properly and help prevent any errors in the future, which is why we should import them as early on in the project as possible. Once we add them the TextmezshPro will then be underneath the Canvas item that was just added when we added and ceated the TextMeshPro onto the scene. We then rename the TextMeshPro as Timer so that it is easier to find later in the line. 
 
-The door for this tutorial will be coded with the colour blue so that it is easy to identify and correspond with the colour of the key for this tutorial.
-![image](https://github.com/user-attachments/assets/1b8a0104-9c66-41bb-ab9d-f9c991995153)![image](https://github.com/user-attachments/assets/23cf39f4-108e-4eb0-8a34-3dfc299ae6e5)
+![image](https://github.com/user-attachments/assets/2d1012dd-3bb7-4694-b132-9cac0eec3fed)
 
-We will then create an empty and move it so that it is located between edge of the wall and the door.
-![image](https://github.com/user-attachments/assets/94825b9a-033c-469a-9ea5-ba8ac8be60b0)
+We the go into the Canvas in the Hierarchy and add a script which we will name as Timer. Double click on the script and it should open up the visual Studio Program on your device.
 
-We will then rename the objects in the heirarchy. The cubes not coloured in blue will be called the walls. The blue cube will be called the door in the heirarchy. The empty we just made will be calle the hinge, as it will have the functionality of a hinge.
-![image](https://github.com/user-attachments/assets/37854cd0-e4ad-43ae-b1fd-d81eb14c989c)
+![image](https://github.com/user-attachments/assets/28b475ab-b057-4cce-b506-77a19d8212b5)
 
-We then make the door the child of the Hinge empty.
+Once opened we will the add the line is using TMPro; line which will allow us to use the parts within the TMPro package when doing the timer for the scene.
+
+This script just means that the on the TextmeshPro (TMPro) object we renamed as timer, it will use the TMPro to display the text which we have stated in the script to be the time that has elapsed when we play the scene.
+
+Once we get this working to show the basic functionality of a timer, we then go back into teh script and change the elapsedTime into remainingTime throughout the script. We then also change the += into a -+ which just means that instead of going up the timer will count down which is what we want.
+
+
+
+
