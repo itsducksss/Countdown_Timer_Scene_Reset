@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=eQpWPfP1T6g
 In this tutorial we will be importing TextMeshProEssentials Unity Package which will be shown in the tutorial.
 
 # Primary Objectives
-This tutorial aims to create a simple timer that when it reaches 0;00 the scene will reset.
+This tutorial aims to create a simple timer that when it reaches 0:00 the scene will reset.
 
 # Preview
 
