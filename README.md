@@ -40,6 +40,14 @@ We the go into the Canvas in the Hierarchy and add a script which we will name a
 
 Once opened we will the add the line is using TMPro; line which will allow us to use the parts within the TMPro package when doing the timer for the scene.
 
+![image](https://github.com/user-attachments/assets/886aa93f-0c6f-4929-be44-1ac001484840)
+
+
+
+https://github.com/user-attachments/assets/39c1dd36-c09a-48e5-b74d-e19e98ac1921
+
+Video just shows how the script will look like when added onto the canvas.
+
 This script just means that the on the TextmeshPro (TMPro) object we renamed as timer, it will use the TMPro to display the text which we have stated in the script to be the time that has elapsed when we play the scene.
 ![image](https://github.com/user-attachments/assets/90d67810-2dd9-4418-9a41-d27248cfbd4c)
 -  using [insert system] means that it can refer to that specific system and its properties when coding using references made to a specific system
