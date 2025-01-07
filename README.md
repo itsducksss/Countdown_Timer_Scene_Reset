@@ -84,3 +84,6 @@ These are the changes that I added onto the if statement which just allows the s
 - using UnityEngine.SceneManagement; just means that the code will utilise Unity's SceneManagement system in the script.
 - [SceneManager](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManagement.SceneManager.html) this just allows you toorganise and move from scene to scene in Unity when you play.
 - [LoadScene("")](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManagement.SceneManager.LoadScene.html) this means that unity will load "this scene", which in thois case is the SampleScene.
+
+https://github.com/user-attachments/assets/d14152d9-4063-4afa-932a-fd940ce7eb51
+We then add the current scene we have onto the build settngas and change the name in LoadScene("") to the name of your scene mine in SampleScene if yours is level1 it would lok like this LoadScene("level1"). You can then see how the scene resets wghen I move the green capsule.
