@@ -82,6 +82,3 @@ These are the changes that I added onto the if statement which just allows the s
 - using UnityEngine.SceneManagement; just means that the code will utilise Unity's SceneManagement system in the script.
 - [SceneManager](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManagement.SceneManager.html) this just allows you toorganise and move from scene to scene in Unity when you play.
 - [LoadScene("")](https://docs.unity3d.com/6000.0/Documentation/ScriptReference/SceneManagement.SceneManager.LoadScene.html) this means that unity will load "this scene", which in thois case is the SampleScene.
-- 
-
-
