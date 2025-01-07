@@ -1,4 +1,6 @@
 # CountDown Timer Reset Scene
+Description
+This tutorial will show how to make a basic countdown timer, as well as show how to change the code so that it has the ability to reset the scene once the timer ends.
 
 # Prerequisites
 Before approaching this tutorial, you will need a current version of Unity and a code editor (such as Microsoft Visual Studio Community) installed and ready to use.
