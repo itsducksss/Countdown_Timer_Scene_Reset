@@ -42,7 +42,7 @@ Once opened we will the add the line is using TMPro; line which will allow us to
 
 ![image](https://github.com/user-attachments/assets/886aa93f-0c6f-4929-be44-1ac001484840)
 
-
+Image above just shows the [Inpesctor](https://docs.unity3d.com/Manual/UsingTheInspector.html), in which we drag in theTextMeshPro into the timerText on the Timer script on the Canvas, as this will display the time that that elpased.
 
 https://github.com/user-attachments/assets/39c1dd36-c09a-48e5-b74d-e19e98ac1921
 
@@ -54,7 +54,7 @@ This script just means that the on the TextmeshPro (TMPro) object we renamed as 
 -  : means this class inherits functions and variables from another class
 -  [Monobehaviour](https://docs.unity3d.com/ScriptReference/MonoBehaviour.html) refers Unity supplied class that attaches directly to [GameObjects](https://docs.unity3d.com/ScriptReference/GameObject.html), which we base a new class onto.
 -  [Serialize Field](https://docs.unity3d.com/ScriptReference/SerializeField.html) helps to make the private variables accessible within the Unity editor without making them public, as well as helps to make serialize any private variable.
--  [TextMeshProUI]() just refers to the TextMeshPro attachment we added which will be used for the UI text which in the code will be called timerText;
+-  [TextMeshProUI](https://docs.unity3d.com/Packages/com.unity.ugui@2.0/manual/TextMeshPro/index.html) just refers to the TextMeshPro attachment we added which will be used for the UI text which in the code will be called timerText;
 -  float refers to a numerical value that can be assigned (whole or decimal).
 -  [void](https://discussions.unity.com/t/what-does-void-mean-when-in-front-of/23128) refers to a function can return normally without the need of a value.
 -  [update](https://docs.unity3d.com/ScriptReference/PlayerLoop.Update.html) means a function that gets called every frame if the MonoBehaviour is enabled.
@@ -65,8 +65,9 @@ This script just means that the on the TextmeshPro (TMPro) object we renamed as 
 -  [string](https://docs.unity3d.com/560/Documentation/ScriptReference/String.html) this refers ta sequence of characters.
 -  Format ("{0:00};{1:00}") this just means that the timer's text will show up in this format for the timer.
 
+This just means that the timer will count up on the using TextMeshpro, in the 1:00 format with the 1 representing minutes and the 00 representing the seconds to show the time elapsed in the scene from when we pressed play.
 
-Once we get this working to show the basic functionality of a timer, we then go back into the script and change the elapsedTime into remainingTime throughout the script. We then also change the += into a -+ which just means that instead of going up the timer will count down which is what we want as seen above.
+Once we get this working to show the basic functionality of a timer, we then go back into the script and change the elapsedTime into remainingTime throughout the script. We then also change the += into a -+ which just means that instead of going up the timer will count down which is what.
 
 https://github.com/user-attachments/assets/5a74081b-36fa-4ba9-b640-60ccd242169f
 
@@ -74,7 +75,7 @@ When we play the scene this should occur (video above).
 
 https://github.com/user-attachments/assets/15471615-12e9-4b34-8232-0bd2ba1f00bd
 
-the problem is that when the countdown reachers past 0:00 this will occur seen in the video above. To solve this we will adjust the script.
+The problem is that when the countdown reachers past 0:00 this will occur seen in the video above. To solve this we will adjust the script.
 
 ![image](https://github.com/user-attachments/assets/f098f676-be40-42a1-bf08-b214d9c19adb)
 - if() is an if statement which is used to help show if a block of code can be exectuted if specified conditions is true.
